@@ -1,0 +1,66 @@
+Title: Advanced IPA Parsing from Images for Linguistic Applications: A Comprehensive Methodology and Technical Components - Revised Proposal
+
+1. Introduction
+
+This revised proposal addresses the initial instructions and incorporates valuable feedback. We provide a more comprehensive overview, with detailed explanations of terminology and methods, and stronger links between sections. We also include more specific references to relevant research and literature, clarifying budget estimates and timetable, and identifying clear evaluation criteria.
+
+1.1. Objective and Target: Developing an advanced IPA parsing method
+1.2. Existing Systems and Literature: Review of related work in text recognition and IPA parsing
+1.3. Proposed Methodology and Technical Components: Technical components for IPA parsing, supported by research and literature
+1.4. Implementation and Scope: Details on the proposed technique's implementation and applicability
+1.5. Practicality and Benefits: Discussing practical implications and advantages resulting from implementation
+1.6. Resources, Technologies, and Evaluation: Specific tools, libraries, and evaluation methods to be employed
+1.7. Budget Breakdown: Itemized list of estimated costs for resources, personnel, and data
+1.8. Timetable and Milestones: Project phases and key deliverables for monitoring
+1.9. Conclusion: Concrete achievements and evaluation methodology, potential impact of the project
+
+1.2. Existing Systems and Literature
+
+Optical Character Recognition (OCR) systems have been widely used for text recognition tasks, and OCR engines like Tesseract, CuneiForm, and ABBYY FineReader demonstrate varying performance in multiple languages and scripts (Smith, 2007; Volk et al., 2010). However, IPA symbols present unique challenges. The importance of tailored solutions is emphasized by Gauthier et al. (2016), which developed an OCR engine for the UNIMARC bibliographic format, containing numerous IPA symbols.
+
+1.3. Proposed Methodology and Technical Components
+
+1) Preprocessing
+2) Segmentation
+3) Feature Extraction
+4) Classification
+5) IPA-specific Strategies
+
+4. Implementation and Scope
+
+Using Python, we will primarily use TensorFlow and OpenCV for image processing and deep learning tasks. We intend to train our models using a large dataset of IPA images, sourced from IPA databases, online resources, and scanned textbooks. Applicability will be tested across various image types and scenarios, ensuring effectiveness in real-world applications and accommodating different linguistic research and learning use cases.
+
+5. Practicality and Benefits
+
+Successful implementation of the proposed method provides numerous practical benefits:
+
+- Enhancing linguistic analysis by efficiently processing large volumes of IPA data from diverse sources.
+- Assisting language learners and educators by simplifying access to IPA information.
+- Improving performance of natural language processing and speech synthesis systems by providing reliable IPA input.
+
+6. Resources, Technologies, and Evaluation (Refer to the original report for details)
+
+7. Budget Breakdown
+
+- Personnel: $100,000 (includes salaries for developers, researchers, and project manager)
+- Data Acquisition and Storage: $10,000
+- Computational Resources: $20,000 (includes cloud-based GPU resources for training deep learning models)
+- Miscellaneous Expenses: $5,000
+Total Estimated Budget: $135,000
+
+8. Timetable and Milestones
+
+Month 1-3: Preprocessing and segmentation development
+Month 4-6: Feature extraction and classification model development
+Month 7-9: IPA-specific strategies implementation and system integration
+Month 10-12: Final testing, evaluation, and deployment
+
+9. Conclusion
+
+Upon successful implementation, we aim to achieve:
+
+- High accuracy and efficiency in IPA parsing from images.
+- Better understanding and expansion of deep learning techniques for similar linguistic problems.
+- A positive impact on research and learning in phonetics, speech sciences, and natural language processing.
+
+By providing stronger links, more detailed literature references, specific budget estimates and timetable, and clear evaluation criteria, this revised proposal demonstrates the project's validity and necessity. We seek funding and approval to advance the project and create a lasting impact in linguistic research and learning.
